@@ -30,7 +30,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-    background: #ff523b;
+    background:#b3a03a;
     
 }
 nav ul li:active{
@@ -38,7 +38,15 @@ nav ul li:active{
 }
 a{
     text-decoration: none;
-    color:rgb(172, 166, 36);
+    color:#000;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 150px;
 }
 
 .container2{
@@ -64,7 +72,7 @@ a{
     cursor: pointer;
 }
 .add-cart:hover{
-    background: #ff523b;
+    background:#b3a03a;
 }
 
 .row{
@@ -86,16 +94,16 @@ a{
 font-size: 40px;
 line-height: 40px;
 margin: 15px 0;
-color: rgb(172, 166, 36);
+color:#333
 }
 .colum-2 p{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    color: green;
+    color:#000
 }
 .btn{
     display: inline-block;
-    background: #ff523b;
+    background:#b3a03a;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -107,7 +115,7 @@ color: rgb(172, 166, 36);
 }
 
 .header{
-    background: radial-gradient(#fff,#f4daca);
+    background: radial-gradient(#fff,#b3a03a);
 }
 
 .header .row{
@@ -143,7 +151,7 @@ color: rgb(172, 166, 36);
 
 .cart-title{
     font-size: 20px;
-    color: chocolate;
+    color:#000;
     font-weight: 500;
 }
 
@@ -166,7 +174,7 @@ color: rgb(172, 166, 36);
 
 .title::after{
     content: '';
-    background: #ff523b;
+    background:#b3a03a;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -194,7 +202,7 @@ h4{
 }
 
 .offer{
-    background: radial-gradient(#fff,#f4daca);
+    background: radial-gradient(#fff,#b3a03a);
     margin-top: 80px;
     padding: 30px 0;   
 }
@@ -211,7 +219,7 @@ small{
 
 .btn1{
     display: inline-block;
-    background: #ff523b;
+    background:#b3a03a;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -308,7 +316,7 @@ th{
     text-align: left;
     padding: 5px;
     color: #fff;
-    background: #ff523b;
+    background:#000;
     font-weight: normal;
 }
 .cart-img{
@@ -327,7 +335,7 @@ td input{
 }
 
 td a{
-    color: #ff523b;
+    color:#b3a03a;
     font-size: 12px;
 }
 
@@ -342,7 +350,7 @@ td img{
 }
 
 .total-price table{
-    border-top: 3px solid #ff523b;
+    border-top: 3px solid#b3a03a;
     width: 100%;
     max-width: 270px;
 }
