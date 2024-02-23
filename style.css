@@ -47,6 +47,18 @@ a{
     align-items: center;
     margin-bottom: 20px;
     margin-left: 150px;
+
+}
+
+.form-control{
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.btn{
+    border: none;
+    
 }
 
 .container2{

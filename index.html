@@ -34,8 +34,8 @@
                 
                </div>
                <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2"  type="search" placeholder="Search" aria-label="Search" onchange="openPage()">
+                <button class="btn btn-outline-success" type="submit"><span style="color: #000;">Search</span></button>
               </form>
                <div class="row">
                 <div class="colum-2">
@@ -356,6 +356,13 @@ function menutoggle(){
         MenuItems.style.maxHeight = "0px"
     }
     
+}
+
+function openPage(){
+    var x = document.querySelector("form-control me-2").value;
+    if (x ==="rice"){
+        window.open(index.html);
+    }
 }
 </script>
 
